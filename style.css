@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100vh; /* Full viewport height */
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+ul.header-list {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul.header-list li {
+    font-size: larger;
+    width: 80em;
+}
+
+.main {
+    background-color: #f1f1f1;
+    padding: 1em;
+    overflow-y: auto; /* Ensures content overflow in main section is scrollable */
+}

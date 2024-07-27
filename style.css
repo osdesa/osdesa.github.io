@@ -18,19 +18,21 @@ body, html {
     padding: 1em;
 }
 
-ul.header-list {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+header ul{
+    list-style: none;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-ul.header-list li {
-    font-size: larger;
+    justify-content: space-between;
+    padding: 0%;
+  }
+  
+  header ul li{
     width: 80em;
-}
+  }
+  
+  header ul li a{
+    color: white;
+    text-decoration: none;
+  }
 
 .main {
     background-color: #f1f1f1;

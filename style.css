@@ -10,7 +10,7 @@ body {
 }
 
 .header {
-    background-color: #4CAF50;
+    background-color: #68A691;
     color: white;
     text-align: center;
     padding: .1em;
@@ -29,16 +29,17 @@ header ul li{
 }
 
 header ul li a{
-  color: white;
+  color: #2c2b2a;
+  font-family: "Source Code Pro", monospace;
+  font-size: large;
   text-decoration: none;
 }
 
 .contents {
-  background-color: #ffffff;
+  background-color: #2c2b2a;
   flex: 1;
   padding: 0%;
   display: flex;
-
 }
 
 .info {
@@ -52,6 +53,7 @@ header ul li a{
   font-size: 3rem;
   margin:0;
   padding: 0;
+  color: #68A691;
 
   text-align: center;
 }
@@ -61,6 +63,7 @@ header ul li a{
   font-family: "Source Code Pro", monospace;
   font-weight: 700;
   font-size: 2rem;
+  color: #68A691;
 
   margin:0;
   padding:0;
@@ -70,8 +73,11 @@ header ul li a{
 .intro-text {
   font-family: "Source Code Pro", monospace;
   font-weight: 300;
+  color: #C6AA58;
 
-  text-align: center;
+  text-align : justify;
+  text-align-last: center;
+
   padding-left: 25%;
   padding-right: 25%;
 }

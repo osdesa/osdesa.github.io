@@ -15,7 +15,7 @@ body, html {
     background-color: #4CAF50;
     color: white;
     text-align: center;
-    padding: 1em;
+    padding: .1em;
 }
 
 header ul{
@@ -25,17 +25,47 @@ header ul{
     padding: 0%;
   }
   
-  header ul li{
-    width: 80em;
-  }
-  
-  header ul li a{
-    color: white;
-    text-decoration: none;
-  }
+header ul li{
+  width: 20em;
+  font-size: larger;
+}
+
+header ul li a{
+  color: white;
+  text-decoration: none;
+}
 
 .main {
     background-color: #f1f1f1;
-    padding: 1em;
     overflow-y: auto; /* Ensures content overflow in main section is scrollable */
+    padding: 0%;
+}
+
+.name {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 3rem;
+  margin:0;
+  padding:0.5em;
+  padding-bottom: 0.01em;
+  padding-left: 1.5em;
+}
+
+.job-title{
+  font-family: "Source Code Pro", monospace;
+  font-family: "Source Code Pro", monospace;
+
+  margin:0;
+  padding:0;
+  font-size: 2.8rem;
+  padding-left: 2.2em;
+}
+
+.intro-text {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+
+  padding-left: 5em;
+  padding-right: 25em;
 }

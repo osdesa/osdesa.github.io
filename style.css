@@ -1,17 +1,17 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100%;
+body {
+  margin: 0;
 }
 
 .container {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    height: 100vh; /* Full viewport height */
+  height: 100vh;
+  display: flex;
+
+  /* Direction of the items, can be row or column */
+  flex-direction: column;
 }
 
 .header {
+  grid-area: header;
     background-color: #4CAF50;
     color: white;
     text-align: center;
@@ -35,10 +35,12 @@ header ul li a{
   text-decoration: none;
 }
 
-.main {
-    background-color: #f1f1f1;
-    overflow-y: auto; /* Ensures content overflow in main section is scrollable */
-    padding: 0%;
+.contents {
+  background-color: #ffffff;
+  flex: 1;
+  padding: 0%;
+  display: flex;
+  align-items : center;
 }
 
 .name {
@@ -47,25 +49,27 @@ header ul li a{
   font-weight: 700;
   font-size: 3rem;
   margin:0;
-  padding:0.5em;
-  padding-bottom: 0.01em;
-  padding-left: 1.5em;
+  padding: 0;
+
+  text-align: center;
 }
 
 .job-title{
   font-family: "Source Code Pro", monospace;
   font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  font-size: 2rem;
 
   margin:0;
   padding:0;
-  font-size: 2.8rem;
-  padding-left: 2.2em;
+  text-align: center;
 }
 
 .intro-text {
   font-family: "Source Code Pro", monospace;
   font-weight: 300;
 
-  padding-left: 5em;
-  padding-right: 25em;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
 }
